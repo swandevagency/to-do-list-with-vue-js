@@ -10,11 +10,11 @@
 
 <script>
 import Main from './Main.vue';
-import Footer from './Footer.vue';
+// import Footer from './Footer.vue';
 export default {
   components: {
     Main,
-    Footer,
+    // Footer,
   },
 };
 </script>

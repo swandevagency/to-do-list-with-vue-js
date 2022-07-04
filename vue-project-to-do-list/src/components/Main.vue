@@ -36,6 +36,8 @@ export default {
   methods: {
     addToList() {
       this.tasks.push({ id: id++, t: this.task, d: this.des });
+      this.task = ''
+      this.des = ''
     },
     removeFrom(value) {
       this.tasks = value;
